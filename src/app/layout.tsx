@@ -62,6 +62,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: RESUME_DATA.personalWebsiteUrl,
   },
+  icons: {
+    icon: "/icon",
+    apple: "/apple-icon",
+  },
 };
 
 export const viewport: Viewport = {
@@ -80,7 +84,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
+    <html lang='en' className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <body>
         <ErrorBoundary>{children}</ErrorBoundary>
         <Analytics />
