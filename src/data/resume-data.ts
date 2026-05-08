@@ -55,7 +55,7 @@ export const RESUME_DATA: ResumeData = {
       ],
       title: "Software Engineer",
       start: "Nov 2025",
-      end: null,
+      end: "May 26",
       description:
         "Developed new features using Node.js, TypeScript, NestJS, integrated with Azure Service Bus on Azure DevOps.",
       highlights: [
